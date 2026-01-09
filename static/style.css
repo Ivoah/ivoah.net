@@ -1,0 +1,16 @@
+@import url(common.css);
+
+body {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fan {
+  a {
+    position: absolute;
+    transform-origin: center left;
+  }
+}
