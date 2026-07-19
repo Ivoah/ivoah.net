@@ -3,9 +3,18 @@
 body {
   margin: 0 auto;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "center";
+  place-items: center;
+
+  > * {
+    grid-area: center;
+  }
+}
+
+#name {
+  font-size: 2em;
 }
 
 #fan {
@@ -18,4 +27,3 @@ body {
     }
   }
 }
-
