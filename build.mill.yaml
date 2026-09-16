@@ -1,0 +1,7 @@
+extends: ScalaModule
+scalaVersion: 3.9.0
+scalacOptions: [-deprecation, -feature, -Werror, -language:implicitConversions]
+mvnDeps:
+- org.rogach::scallop::5.2.0
+- net.ivoah::vial:0.12.2
+- com.lihaoyi::scalatags:0.13.1

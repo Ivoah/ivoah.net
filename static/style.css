@@ -11,10 +11,15 @@ body {
   > * {
     grid-area: center;
   }
+
+  img {
+    border-radius: 50%;
+  }
 }
 
 #name {
   font-size: 2em;
+  filter: drop-shadow(1px 1px 3px white) drop-shadow(1px -1px 3px white) drop-shadow(-1px 1px 3px white) drop-shadow(-1px -1px 3px white);
 }
 
 #fan {
