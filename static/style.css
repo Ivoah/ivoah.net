@@ -2,6 +2,9 @@
 
 body {
   margin: 0 auto;
+}
+
+.center {
   height: 100vh;
   display: grid;
   grid-template-columns: auto;
@@ -11,7 +14,7 @@ body {
   > * {
     grid-area: center;
   }
-
+  
   img {
     border-radius: 50%;
   }
